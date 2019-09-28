@@ -1,7 +1,7 @@
 {
   "name": "youtube-instant",
-  "version": "1.0.2",
-  "description": "A cli command to shorten url",
+  "version": "1.0.3",
+  "description": "A cli command to search youtube videos",
   "keywords": ["Youtube", "instant", "youtube search", "youtube instant", "youtube search video", "search video"],
   "main": "index.js",
   "scripts": {
