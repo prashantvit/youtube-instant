@@ -24,8 +24,8 @@ https.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${keyword
       title: video.snippet.title,
     }));
     result.forEach((v, i) => {
-      console.log('\x1b[36m%s\x1b[0m', `${i}. Song Title - ${v.title}`);
-      console.log('\x1b[33m%s\x1b[0m', `   Song Link - https://youtube.com/watch?v=${v.id}`, '\n');
+      console.log('\x1b[36m%s\x1b[0m', `${i}. Video Title - ${v.title}`);
+      console.log('\x1b[33m%s\x1b[0m', `   Video Link - https://youtube.com/watch?v=${v.id}`, '\n');
     });
   });
 }).on('error', (err) => {

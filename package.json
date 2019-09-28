@@ -1,6 +1,6 @@
 {
   "name": "youtube-instant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cli command to shorten url",
   "main": "index.js",
   "scripts": {
