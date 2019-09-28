@@ -1,10 +1,15 @@
 #!/usr/bin/env node
 
 const https = require('https');
-
 const API_KEY = 'AIzaSyDgvJKl298TkwpjsB1f0PWqVFhScILAOFc';
-const kewword = process.argv[process.argv.length - 1];
-https.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${kewword}&key=${API_KEY}`, (resp) => {
+var keyword = '';
+process.argv.forEach((env, i) => {
+  if (i > 1) {
+    keyword = `${keyword} ${env}`;
+  }
+});
+
+https.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${keyword}&key=${API_KEY}`, (resp) => {
   var data = '';
   // A chunk of data has been recieved.
   resp.on('data', (chunk) => {
