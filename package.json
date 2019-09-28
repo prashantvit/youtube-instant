@@ -1,7 +1,8 @@
 {
   "name": "youtube-instant",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A cli command to shorten url",
+  "keywords": ["Youtube", "instant", "youtube search", "youtube instant", "youtube search video", "search video"],
   "main": "index.js",
   "scripts": {
     "youtube-instant": "node bin/youtube-instant.js",
@@ -12,6 +13,10 @@
   },
   "author": "prashant.srs@gmail.com",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/prashantvit/youtube-instant.git"
+  },
   "devDependencies": {
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
