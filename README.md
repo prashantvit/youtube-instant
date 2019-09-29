@@ -4,7 +4,9 @@ Installation: -
 
 npm i -g youtube-instant
 
-Search song on cli: -
+Search Videos on cli: -
 
 youtube-instant summer of 69
 
+
+From the result cmd + click to play Video
