@@ -9,4 +9,4 @@ Search Videos on cli: -
 youtube-instant summer of 69
 
 
-From the result cmd + click to play Video
+From the result cmd + click on thie video link to play Video
